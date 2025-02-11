@@ -102,5 +102,8 @@ picture img{
     .card{
         flex-direction: column;
     }
+        .card picture, .card .card-content {
+        width: 100%;
+    }
     
 }
